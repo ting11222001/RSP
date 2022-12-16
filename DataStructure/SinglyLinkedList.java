@@ -108,6 +108,15 @@ public class SinglyLinkedList {
 
     System.out.println("Linked list: ");
     singlyList.printList();
+    System.out.println();
+
+    System.out.println("Search: ");
+    System.out.println(singlyList.search(10));
+
+    System.out.println("DeleteWithValue: ");
+    singlyList.deleteWithValue(2);
+    singlyList.printList();
+    System.out.println();
   }
 
 }
