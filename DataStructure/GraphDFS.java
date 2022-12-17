@@ -105,6 +105,7 @@ public class GraphDFS {
 
     graph.addEdge(0, 1); // A → B
     graph.addEdge(1, 2); // B → C
+    graph.addEdge(1, 4); // B → E
     graph.addEdge(2, 3); // C → D
     graph.addEdge(2, 4); // C → E
     graph.addEdge(4, 0); // E → A
