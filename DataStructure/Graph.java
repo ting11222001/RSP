@@ -3,7 +3,7 @@ package DataStructure;
 import java.util.ArrayList;
 
 /**
- * Graph
+ * Graph: Undirected Graph/ Adjacency List
  */
 public class Graph {
 
