@@ -1,5 +1,10 @@
 package DataStructure;
 
+/**
+ * SinglyLinkedList: singly linked list/ add node to end/ add node to start/ add
+ * node after/ delete with value/ find a node/ print
+ */
+
 public class SinglyLinkedList {
   Node head;
 
