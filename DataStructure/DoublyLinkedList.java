@@ -1,5 +1,10 @@
 package DataStructure;
 
+/**
+ * DoublyLinkedList: doubly linked list/ add node to end/ add node to start/
+ * delete node after/ print
+ */
+
 public class DoublyLinkedList {
   Node head;
 
