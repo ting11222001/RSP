@@ -114,12 +114,24 @@ public class GraphDFS {
     graph.printGraphMatrix();
 
     /**
+     * Print Graph in Matrix:
+     * A B C D E
+     * A 0 1 0 0 0
+     * B 0 0 1 0 1
+     * C 0 0 0 1 1
+     * D 0 0 0 0 0
+     * E 1 0 1 0 0
+     */
+
+    graph.dfs(0);
+
+    /**
+     * Result:
      * start from A: A → B → C → D → E
      * start from B: B → C → D → E → A
      * start from C: C → D → E → A → B
      * start from D: D
      * start from E: E → A → B → C → D
      */
-    graph.dfs(0);
   }
 }
